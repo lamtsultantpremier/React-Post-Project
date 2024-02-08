@@ -1,0 +1,43 @@
+.app {
+  margin-left: 400px;
+  margin-top: 150px;
+}
+/*Debut style navigation*/
+.entete {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*Fin style navigation*/
+
+/*Debut style Post*/
+.post {
+  width: 500px;
+  padding: 5px;
+  background-color: rgb(35, 72, 116);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.post.active {
+  background-color: rgb(178, 137, 116);
+}
+.post button {
+  padding: 13px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 11px;
+}
+.btn {
+  gap: 10px;
+  display: flex;
+}
+.btn .delete {
+  background-color: rgb(206, 106, 106);
+  color: #fff;
+}
+/*Debut style Post*/
